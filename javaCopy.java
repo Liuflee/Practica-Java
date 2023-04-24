@@ -20,7 +20,7 @@ public class javaCopy {
         }
 
         if (lado1 < 0 || lado2 < 0 || lado3 < 0) {
-            System.out.println("El numero debe ser positivo");
+            System.out.println("Los lados deben ser positivos");
         } else if (lado1 < lado2 + lado3 && lado2 < lado1 + lado3 && lado3 < lado1 + lado2) {
             if (lado1 == lado2 && lado1 == lado3 && lado3 == lado2) {
                 System.out.println("El triangulo es equilatero");
