@@ -32,5 +32,6 @@ public class javaCopy {
         } else {
             System.out.println("No se puede formar un triangulo");
         }
+        System.out.println("Fin del programa");
 }
 }
